@@ -9,7 +9,6 @@ let timeLeft = 25 * 60; // 25 minutes in seconds
 let isRunning = false;
 let isWorkMode = true;
 
-
 function updateDisplay() {
     const minutes = Math.floor(timeLeft / 60);
     const seconds = timeLeft % 60;
