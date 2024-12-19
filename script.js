@@ -15,8 +15,6 @@ function updateDisplay() {
     timer.textContent = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
 }
 
-
-
 function switchMode() {
     isWorkMode = !isWorkMode;
     timeLeft = isWorkMode ? 25 * 60 : 5 * 60; // 25 min for work, 5 min for break
