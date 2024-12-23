@@ -5,6 +5,7 @@ const resetBtn = document.getElementById('resetBtn');
 const modeDisplay = document.getElementById('mode');
 
 
+
 let interval;
 let timeLeft = 25 * 60; // 25 minutes in seconds
 let isRunning = false;
