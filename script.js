@@ -56,3 +56,11 @@ pauseBtn.addEventListener('click', pauseTimer);
 resetBtn.addEventListener('click', resetTimer);
 
 updateDisplay();
+
+
+
+
+
+
+
+
