@@ -58,4 +58,3 @@ resetBtn.addEventListener('click', resetTimer);
 updateDisplay();
 
 
-
